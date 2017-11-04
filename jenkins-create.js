@@ -1,7 +1,7 @@
 const fs = require('fs');
 
-const name = process.env.JOB_NAME;
-const npmkey = process.argv[2];
+const name = process.argv[2];
+const npmkey = process.argv[3];
 
 const project = {
   name,
