@@ -9,6 +9,7 @@ const project = {
       type: 'simple_rpm',
       requires: [
           'docker-init',
+          'cosmos-ca-chains',
       ],
       files: [{
           src: 'docker-files/',
